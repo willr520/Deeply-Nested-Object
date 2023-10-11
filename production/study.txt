@@ -1,0 +1,71 @@
+Nathan Williams
+Slot Machines
+
+-Symbols in slot machines have remained relatively unchanged due to the notion that gamblers prefer familiarity
+-Because cards and poker were most popular in old saloons, first primitive models of slot machines used these symbols (hearts, clubs, diamonds, spades)
+-Charles Fey invented the One Armed Bandit, a three reel machine that kept only diamonds, spades, and hearts but introduced horseshoes and the liberty bell (good luck and american freedom, respectively). Soon the number 7 replaced the horseshoe to represent luck as many gamblers thought it as a lucky number
+-if you hit three liberty bells, you would get the highest payout
+-were in saloons, barber shops, other places
+-Because of legal bans, operators created symbols of fruits on the reels, suggestive of chewing gum (which some machines actually dispensed)
+-Modern slot machines now have large variety of symbols (some old fruit and card symbols remain)
+
+You need to land successive number of any given symbol/payline to win, however there are some special symbols
+
+-wild symbol: can act as any other symbol
+-scatter symbol: does not have to appear on winning line, and with 3 can trigger additional free action
+-bonus symbols: ex multipliers, can get a set of these to win lucrative bonus
+-stacked symbols: symbol can expand to take up whole reel
+-sticky symbols: remain in place for a set number of spins (usually high value)
+
+-Nowadays famous in both casinos as well as online
+-”thrill of playing for a potentially life-changing jackpot remains a constant draw for players”
+
+-”In many states, casinos make between 65 and 80 percent of their gambling income from slots”
+“The math of the game ensures that casinos generate a consistent positive win for themselves”
+
+Traditional symbols:
+-old school (lucky 7, bar(represents chewing pack of chewing gum), horseshoe, liberty bell, diamond, star, four leaf clover)
+-fruit (cherries, lemon, bananas, oranges, strawberries, plums, watermelon, grapes, pineapple, pears)
+-card(between 10 and A)
+-suites(diamond spade, club, heart)
+
+-symbols to be used
+-lucky seven
+-banana
+-watermelon
+-liberty bell
+-bar
+-lemon
+-orange
+-plum
+-cherry
+
+Parts (traditional machine, 3 slots):
+-reel
+-payout tray
+-winning line
+-coin reject slot
+-symbol
+-lever
+-coin slot
+-casing
+-jackpot feed
+-electrical payout linkage
+-strongbox
+-jackpot box
+-coin chute
+-spring linkage
+-reel plate
+-payout trigger
+
+Steps:
+-insert currency (cash or ticket)
+-select bet (bet multiple lines per spin, multiple credits on each line)
+-press spin
+-cash out (if you have made any winnings)
+
+https://edge.twinspires.com/casino-news/the-ultimate-guide-to-slot-machine-symbols-and-icons/
+https://www.mendocinobeacon.com/2023/04/12/history-of-slots-and-jackpots-the-evolution-of-one-of-the-most-famous-games-in-history/
+https://www.forbes.com/sites/davidschwartz/2018/06/04/how-casinos-use-math-to-make-money-when-you-play-the-slots/?sh=2088b41c94d0
+http://www.visualdictionaryonline.com/sports-games/games/slot-machine_2.php
+https://chipy.com/academy/slots/slot-symbols
