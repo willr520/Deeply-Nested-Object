@@ -6,8 +6,8 @@ const slotMachine = {
   currency: "usd",
   currentJackpot: 1000,
   timeToSpin: 10000,
-  loseSound: "three-ping defeat",
-  winSound: "three-pings, jittering fall of coins",
+  loseSoundDescription: "three-ping defeat",
+  winSoundDescription: "three-pings, jittering fall of coins",
   parts: [
     "reel",
     "payout tray",
