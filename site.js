@@ -130,10 +130,21 @@ function startSlotMachine() {
 
 startSlotMachine();
 
+
+
 const lever = document.getElementById("lever");
+const displayPhrase = document.getElementById("displayPhrase")
+const reasonsToPlay = slotMachine.reasonsToPlay;
+
 lever.addEventListener("click", function(){
+
   lever.classList.add("lever-rotate");
   setTimeout(() => {
     lever.classList.remove("lever-rotate");
   }, 300);
+  const randomIndex = Math.floor(Math.random() * reasonsToPlay.length);
+  const randomPhrase = reasonsToPlay[randomIndex];
+  displayPhrase.innerText = randomPhrase;
 })
+
+

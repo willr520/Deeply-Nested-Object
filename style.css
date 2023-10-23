@@ -27,9 +27,9 @@
 #lever {
     position:absolute;
     right:25px;
-    top:100px;
+    top:25px;
     z-index: 1;
-    width:125px;
+    width:80px;
     height: auto;
     transition: transform 0.3 ease;
     cursor: pointer;
@@ -37,4 +37,15 @@
 
 .lever-rotate {
     transform: rotate(20deg);
+}
+
+#displayPhrase {
+    font-size: 50px;
+    position:absolute;
+    text-align:center;
+    top:50%;
+    width:100%;
+    font-family:helvetica;
+    font-weight:bold;
+
 }
