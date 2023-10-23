@@ -29,15 +29,15 @@ const slotMachine = {
   symbols: {
     traditional: ["hearts", "clubs", "diamonds", "spades"],
     modern: [
-      "lucky7",
-      "bar",
-      "libertybell",
-      "banana",
-      "watermelon",
-      "lemon",
-      "orange",
-      "plum",
-      "cherry",
+      "images/lucky7.png",
+      "images/bar.png",
+      "images/libertybell.png",
+      "images/banana.png",
+      "images/watermelon.png",
+      "images/lemon.png",
+      "images/orange.png",
+      "images/plum.png",
+      "images/cherry.png",
     ],
   },
   specialSymbols: ["wild", "scatter", "bonus", "stacked", "sticky"],
@@ -51,6 +51,7 @@ const slotMachine = {
     "leisure facility",
     "motorway service",
   ],
+
   spin: function () {
     if (this.leverPull == true) {
       console.log("spinning");
@@ -97,4 +98,42 @@ const slotMachine = {
     "math of game ensure casinos generate consistent positive win for themselves",
     "casinos make between 65 to 80 percent of their income form slots"
   ],
-};
+}
+
+const symbols = slotMachine.symbols.modern;
+const machine = document.getElementById("slot-machine");
+
+function createSymbol() {
+  const symbol = document.createElement("img");
+  const randomSymbol = symbols[Math.floor(Math.random() * symbols.length)];
+  symbol.src = randomSymbol;
+  symbol.classList.add("symbol");
+
+  symbol.style.left = Math.random() * (machine.offsetWidth - 50) + "px";
+  machine.appendChild(symbol);
+
+  let topPosition = 0;
+  const animation = setInterval(() => {
+      if (topPosition >= machine.offsetHeight) {
+          topPosition = -50; 
+          symbol.style.left = Math.random() * (machine.offsetWidth - 50) + "px"; 
+      }
+      topPosition += 1; 
+      symbol.style.top = topPosition + "px";
+  }, 10); 
+}
+
+function startSlotMachine() {
+  setInterval(createSymbol, 1000); 
+}
+
+
+startSlotMachine();
+
+const lever = document.getElementById("lever");
+lever.addEventListener("click", function(){
+  lever.classList.add("lever-rotate");
+  setTimeout(() => {
+    lever.classList.remove("lever-rotate");
+  }, 300);
+})

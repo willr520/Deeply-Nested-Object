@@ -1,0 +1,40 @@
+#slot-machine {
+    position: absolute;
+    top: 0; 
+    left: 0; 
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+
+#glass {
+    position: fixed;
+    top: 0; 
+    left: 0; 
+    height: 100vh;
+    width: 100vw; 
+    opacity: 0.5;
+    z-index: 0;
+    object-fit: cover;
+}
+.symbol {
+    position: absolute;
+    width: 100px; 
+    height: 100px; 
+    z-index: -1;
+}
+
+#lever {
+    position:absolute;
+    right:25px;
+    top:100px;
+    z-index: 1;
+    width:125px;
+    height: auto;
+    transition: transform 0.3 ease;
+    cursor: pointer;
+}
+
+.lever-rotate {
+    transform: rotate(20deg);
+}
